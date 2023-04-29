@@ -1,0 +1,4 @@
+baseURL = 'https://hornjourney.com/'
+languageCode = 'en-us'
+title = 'Horn Journey'
+theme = 'ananke'
