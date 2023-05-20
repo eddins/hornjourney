@@ -2,4 +2,6 @@ module github.com/eddins/hornjourney
 
 go 1.20
 
-require github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20230203204610-a1a99cf12681 // indirect
+require (
+	github.com/adityatelange/hugo-PaperMod v0.0.0-20230507121058-bacb763071d9 // indirect
+)
