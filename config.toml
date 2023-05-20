@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Horn Journey'
 theme = "PaperMod"
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
