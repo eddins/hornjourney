@@ -6,3 +6,7 @@ theme = "PaperMod"
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
+[[params.socialIcons]]
+name = "rss"
+url = "http://localhost:1313/index.xml"
+
