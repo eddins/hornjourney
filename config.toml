@@ -2,6 +2,7 @@ baseURL = 'https://hornjourney.com/'
 languageCode = 'en-us'
 title = 'Horn Journey'
 theme = "PaperMod"
+Copyright = "Copyright {{now.Year}} Steve Eddins"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
@@ -9,4 +10,8 @@ home = [ "HTML", "RSS", "JSON" ]
 [[params.socialIcons]]
 name = "rss"
 url = "http://localhost:1313/index.xml"
+
+[module]
+[[module.imports]]
+  path = "github.com/reuixiy/hugo-theme-meme"
 
