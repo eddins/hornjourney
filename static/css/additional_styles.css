@@ -1,3 +1,9 @@
 textarea { 
   vertical-align: top;
 }
+
+/* p.gpb is used for the honey pot field of the contact form. */
+/* gpb doesn't mean anything. */
+p.gpb {
+  display: none;
+}
