@@ -19,18 +19,13 @@ menu:
     - name: About
       url: "about/"
       weight: 2
-    - name: Categories
-      url: "categories/"
-      weight: 3
     - name: Tags
       url: "tags/"
       weight: 4
-    - name: Subscribe
-      url: "index.xml"
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; Steve Eddins {Year} | [GitHub](https://github.com/eddins) | [MathWorks](https://blogs.mathworks.com/steve)"
+  footer: "&copy; Steve Eddins {Year} | [RSS](https://hornjourney.com/index.xml) | [GitHub](https://github.com/eddins) | [MathWorks](https://blogs.mathworks.com/steve)"
 
 markup:
   highlight:
