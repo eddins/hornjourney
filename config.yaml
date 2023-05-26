@@ -22,9 +22,12 @@ menu:
     - name: Tags
       url: "tags/"
       weight: 4
+    - name: Follow
+      url: "follow/"
+      weight: 5
     - name: Contact
       url: "contact/"
-      weight: 5
+      weight: 6
 
 params:
   description: "A website built through Hugo and blogdown."
