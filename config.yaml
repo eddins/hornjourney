@@ -31,7 +31,7 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; Steve Eddins {Year} | [RSS](https://hornjourney.com/index.xml) | [GitHub](https://github.com/eddins) | [MathWorks](https://blogs.mathworks.com/steve)"
+  footer: "&copy; Steve Eddins {Year} | [![RSS](/image/rss-feed-16.svg)](/index.xml) | [GitHub](https://github.com/eddins) | [MathWorks](https://blogs.mathworks.com/steve)"
 
 markup:
   highlight:
