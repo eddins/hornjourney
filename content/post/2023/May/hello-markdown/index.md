@@ -1,7 +1,8 @@
 ---
 title: A Plain Markdown Post
 author: Yihui Xie
-date: '2016-02-14'
+date: '2023-05-10'
+slug: 'plain-markdown'
 categories:
   - Example
   - Hugo
