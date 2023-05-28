@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" /> 
+    <link rel="stylesheet" type="text/css" href="{{ "css/additional_styles.css" | relURL }}">
+    <!-- MailerLite Universal -->
+    <script>
+	  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+	  .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+	  n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+	  (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+	  ml('account', '454185');
+    </script>
+    <!-- End MailerLite Universal -->
+    <!-- Favicon support, code from https://favicon.io/favicon-converter/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>{{ block "title" . }}
+      <!-- Default content for the title block -->
+      {{ .Site.Title }}
+    {{ end }}</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <hr/>
+    </nav>
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    <footer>
+      {{ partial "foot_custom.html" . }}
+      {{ with .Site.Params.footer }}
+        <hr/>
+        {{ replace . "{Year}" now.Year | markdownify}}
+      {{ end }}
+    </footer>    
+  </body>
+</html>
