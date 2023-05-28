@@ -33,7 +33,8 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; Steve Eddins {Year} | [![RSS](/image/rss-feed-16.svg)](/index.xml) | [GitHub](https://github.com/eddins) | [MathWorks](https://blogs.mathworks.com/steve)"
+  author: "Steve Eddins"
+  startYear: "2023"
 
 markup:
   highlight:
