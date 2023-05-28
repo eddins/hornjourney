@@ -10,11 +10,11 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
+  background: none;
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
+
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
@@ -49,3 +49,13 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+textarea { 
+  vertical-align: top;
+}
+
+/* p.gpb is used for the honey pot field of the contact form. */
+/* gpb doesn't mean anything. */
+p.gpb {
+  display: none;
+}
