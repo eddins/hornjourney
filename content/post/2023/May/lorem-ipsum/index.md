@@ -1,6 +1,7 @@
 ---
 title: Lorem Ipsum
-date: '2023-05-27'
+date: '2023-05-25'
+lastmod: '2023-05-27'
 categories:
   - Example
 tags:

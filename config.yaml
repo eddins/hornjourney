@@ -31,11 +31,29 @@ menu:
       url: "contact/"
       weight: 7
 
+# Last modified date in Hugo (https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/)
+frontmatter:
+  date:
+    - date
+    - publishDate
+    - lastmod
+  lastmod:
+    - lastmod
+    - ':git'
+    - date
+    - publishDate
+  publishDate:
+    - publishDate
+    - date
+  expiryDate:
+    - expiryDate
+
+
 params:
   description: "A website built through Hugo and blogdown."
   author: "Steve Eddins"
   startYear: "2023"
-  dateFormat: "02-Jan-2006"
+  dateFormat: "Monday, January 2, 2006"
   footerLinks:
     - github:
       name: "GitHub"
