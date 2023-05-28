@@ -44,9 +44,10 @@
         {{ $year_range = print .Site.Params.startYear $dash now.Year }}
       {{ end }}
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> &copy; {{ $year_range }} {{ .Site.Params.author }} | 
-      <a href="{{ "index.xml" | relURL }}"><img src="{{ "image/rss-feed-16.svg" | relURL}}"/></a> |
-      <a href="https://github.com/eddins">GitHub</a> | 
-      <a href="https://blogs.mathworks.com/steve">MathWorks blog</a>
+      <a href="{{ "index.xml" | relURL }}"><img src="{{ "image/rss-feed-16.svg" | relURL}}"/></a>
+      {{ range .Site.Params.footerLinks }}
+        | <a href="{{ .url }}">{{.name}}</a>
+      {{ end }}
     </footer>    
   </body>
 </html>

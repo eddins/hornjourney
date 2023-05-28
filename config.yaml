@@ -35,6 +35,13 @@ params:
   description: "A website built through Hugo and blogdown."
   author: "Steve Eddins"
   startYear: "2023"
+  footerLinks:
+    - github:
+      name: "GitHub"
+      url: "https://github.com/eddins"
+    - mathworks:
+      name: "MathWorks blog"
+      url: "https://blogs.mathworks.com/steve"
 
 markup:
   highlight:
