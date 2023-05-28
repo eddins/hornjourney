@@ -1,7 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
 title: "Horn Journey"
-theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
