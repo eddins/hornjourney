@@ -29,22 +29,22 @@ menu:
       url: "about/"
       weight: 4
     - identifier: about-me
-      name: "About me"
+      name: "Me"
       url: "about/"
       parent: about
       weight: 1
     - identifier: now
-      name: "About now"
+      name: "Now"
       url: "now/"
       parent: about
       weight: 2
     - identifier: site
-      name: "About this site"
+      name: "Site"
       url: "about-site/"
       parent: about
       weight: 3
     - identifier: contact
-      name: "Contact me"
+      name: "Contact"
       url: "contact/"
       parent: about
       weight: 4
