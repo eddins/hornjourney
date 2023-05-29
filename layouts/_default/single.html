@@ -1,4 +1,20 @@
 {{ define "main" }}
+  {{ if eq .Section "post" }}
+    {{ if and (.PrevPage) (eq .PrevPage.Section "post") }}
+      <span id="prev-link">
+        <a href="{{ .PrevPage.Permalink }}">
+          &laquo; {{ .PrevPage.Title | truncate 20 "..." }}
+        </a>
+      </span>
+    {{ end }}
+    {{ if and (.NextPage) (eq .NextPage.Section "post") }}
+      <span id="next-link">
+        <a href="{{ .NextPage.Permalink }}">
+          {{ .NextPage.Title | truncate 20 "..." }} &raquo;
+        </a>
+      </span>
+    {{ end }}
+  {{ end }}
   <h1><span class="title">{{ .Title | markdownify }}</span></h1>
   <p>
     <span class="byline">{{ .Site.Params.author }}</span>

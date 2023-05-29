@@ -25,6 +25,17 @@ body {
   line-height: 1.25;
 }
 
+#prev-link {
+  color: #777;
+  font-size: 0.75rem;
+  float:left;
+}
+#next-link {
+  color: #777;
+  font-size: 0.75rem;
+  float:right;
+}
+
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
