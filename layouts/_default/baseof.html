@@ -28,8 +28,8 @@
   <body>
     <nav class="navbar">
       <!-- LOGO -->
-      <img class="logo" src="{{ .Site.Params.siteLogo | relURL }}"
-        style="width:32px;"/>
+      <a href="{{ .Site.BaseURL }}"><img class="logo" 
+        src="{{ .Site.Params.siteLogo | relURL }}" style="width:32px;"/></a>
       <ul class="nav-links">
         
         <!-- USING CHECKBOX HACK -->
