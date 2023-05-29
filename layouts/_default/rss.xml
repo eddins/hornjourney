@@ -36,6 +36,7 @@
         {{ .Summary | html }}
         {{ if .Truncated }}
           <p><a href="{{ .Permalink }}">Read more &hellip;</a></p>
+        {{ end }}
       </description>
     </item>
     {{ end }}
