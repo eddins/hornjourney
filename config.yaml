@@ -12,24 +12,42 @@ permalinks:
 
 menu:
   main:
-    - name: Home
-      url: ""
-      weight: 1
-    - name: Posts
+    - identifier: archive
+      name: Archive
       url: "post/"
-      weight: 2
-    - name: Follow
+      weight: 1
+    - identifier: follow
+      name: Follow
       url: "follow/"
-      weight: 3
-    - name: Neighborhood
+      weight: 2
+    - identifier: neighborhood
+      name: Neighborhood
       url: "neighborhood/"
+      weight: 3
+    - identifier: about
+      name: About
+      url: "about/"
       weight: 4
-    - name: Now
+    - identifier: about-me
+      name: "About me"
+      url: "about/"
+      parent: about
+      weight: 1
+    - identifier: now
+      name: "About now"
       url: "now/"
-      weight: 5
-    - name: Contact
+      parent: about
+      weight: 2
+    - identifier: site
+      name: "About the site"
+      url: "about-site/"
+      parent: about
+      weight: 3
+    - identifier: contact
+      name: "Contact me"
       url: "contact/"
-      weight: 7
+      parent: about
+      weight: 4
 
 # Last modified date in Hugo (https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/)
 frontmatter:

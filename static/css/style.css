@@ -68,6 +68,39 @@ img.logo {
   padding: 5px 14px;
 }
 
+/* DROPDOWN MENU */
+/* https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
+.item-with-dropdown {
+  position: relative; 
+}
+
+.dropdown {
+  background-color: rgb(23,92,143);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: rgb(81,160,219);
+}
+
+.item-with-dropdown:hover .dropdown {
+  display: block;
+}
+
 /* RESPONSIVE NAVBAR MENU STARTS */
 /* https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
 
@@ -98,7 +131,7 @@ input[type=checkbox] {
 
   .menu li:hover {
     display: inline-block;
-    background-color:#4c9e9e;
+    background-color: rgb(81,160,219);
     transition: 0.3s ease;
   }
 
@@ -117,11 +150,11 @@ input[type=checkbox] {
   .dropdown {
     left: 50%;
     top: 30px;
-    transform: translateX(35%);
+    /* transform: translateX(35%); */
   }
 
   .dropdown li:hover {
-    background-color: #4c9e9e;
+    background-color: rgb(81,160,219);
   }
 }
 

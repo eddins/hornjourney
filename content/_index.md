@@ -12,6 +12,6 @@ title: Home
 
 _Exploring paths to learning and musicianship on the French horn_
 
-Most recent posts:
+Recent posts:
 
 
