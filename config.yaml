@@ -1,13 +1,8 @@
 baseurl: "https://hornjourney.com/"
 languageCode: "en-us"
 title: "Horn Journey"
-googleAnalytics: ""
-disqusShortname: ""
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-footnotereturnlinkcontents: "↩"
 
 permalinks:
-  note: "/note/:year/:month/:day/:slug/"
   post: "/post/:year/:month/:day/:slug/"
 
 menu:
