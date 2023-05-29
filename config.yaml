@@ -54,6 +54,7 @@ params:
   author: "Steve Eddins"
   startYear: "2023"
   dateFormat: "Monday, January 2, 2006"
+  siteLogo: "image/horn-logo.svg"
   footerLinks:
     - github:
       name: "GitHub"
