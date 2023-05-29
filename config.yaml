@@ -39,7 +39,7 @@ menu:
       parent: about
       weight: 2
     - identifier: site
-      name: "About the site"
+      name: "About this site"
       url: "about-site/"
       parent: about
       weight: 3
