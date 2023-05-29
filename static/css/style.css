@@ -36,6 +36,12 @@ body {
   float:right;
 }
 
+.portrait {
+  max-width:15%;
+  min-width:40px;
+  float:right;
+}
+
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;

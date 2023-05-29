@@ -1,12 +1,9 @@
 ---
-title: Home
 ---
 
-<figure style="max-width:15%;min-width:40px;float:right;">
-  <img src="image/steve-horn-front-200x300.jpg"    
-     alt="Steve Eddins" />
-  <figcaption style="text-align:center;">Steve Eddins</figcaption>
-</figure>
+{{% figure class="portrait" src="image/steve-horn-front-200x300.jpg"
+  alt="Steve Eddins"
+  caption="Steve Eddins" %}}
 
 # Horn Journey
 
