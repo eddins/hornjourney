@@ -7,7 +7,7 @@
 
 # Horn Journey
 
-_Exploring paths to learning and musicianship on the French horn_
+_Exploring paths for learning and musicianship on the French horn_
 
 Recent posts:
 
