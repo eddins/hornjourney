@@ -21,7 +21,7 @@ body {
 
 .date-info {
   color: #777;
-  font-size: 0.75rem;
+  font-size: smaller;
   line-height: 1.25;
 }
 
@@ -40,6 +40,39 @@ body {
   max-width:15%;
   min-width:40px;
   float:right;
+}
+
+figure.sheet-music-snippet {
+  width: 80%;
+  height: auto;
+  border-style: solid;
+  border-color: LightGray;
+  border-width: thin;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  background: WhiteSmoke;
+}
+
+figure.sheet-music-snippet img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: Gainsboro;
+  border-width: thin;
+}
+
+figure.sheet-music-snippet figurecaption {
+  font-size: smaller;
+}
+
+figure.sheet-music-snippet p {
+  font-size: smaller;
 }
 
 footer a { text-decoration: none; }

@@ -1,24 +1,42 @@
 ---
 title: Now
-lastmod: "2023-05-29"
+lastmod: "2023-05-30"
 ---
 
-## Location
+## In Rehearsal
 
-Milford, Massachussets, at my home of the past 30 years, with my wife and my dog. We just got back from Hermit Lake in New Hampshire, where we spent time with our boys and our daughter-in-law.
+The season is over for my regular orchestras, and so far I've had to say no to summer sub opportunities, so I currently have no concerts or rehearsals to prepare for.
 
-## Learning
+## On the Stand
 
-The season is over for my regular orchestras, and so far I've had to say no to summer sub opportunities, so I currently have no concerts to prepare for. I'm working on:
+### A Solo
 
-- a solo piece (Borodin, "Mazurka" from _Five Pieces from the Petite Suite_ for horn and piano)
-- excerpts for Concord Orchestra section seating audition in August
-- portions of a couple of other works (Hindemith, Horn Concerto, II, and Saint Saëns, _Morceau de Concert_, Adagio) for possible audition use
-- harmonic progression arpeggios by [Maddy Tarantelli](https://maddytarantelli.weebly.com), _Horn Call_, May 2023
+Preparing for solo coaching at horn camp:
+
+{{% figure class="sheet-music-snippet"
+  src="image/borodin-mazurka-clip.jpg" 
+  caption="Borodin, Mazurka from _Five Pieces from the Petite Suite_ for horn and piano, [Israel Brass Woodwind Publications](https://ortav.com)."
+%}}
+
+### An Excerpt
+
+For Concord Orchestra section seating audition in August:
+
+{{% figure class="sheet-music-snippet"
+  src="image/hanson-2-mvmt-1-excerpt.jpg" 
+  caption="Hanson - Symphony No. 2, mvmt 1 (Horn 1 in F)."
+%}}
+
+### An Exercise
+
+{{% figure class="sheet-music-snippet"
+  src="image/tarantelli-harmonic-progression-arpeggios.jpg" 
+  caption="Transcribed from Tarantelli, \"Integrating Theory Into Fundamentals of Horn Playing\", _Horn Call_, May 2023. Play in all keys."
+%}}
 
 ## Coming Up Soon
 
-- Kendall Betts Horn Camp (June)
+[Kendall Betts Horn Camp](https://horncamp.org) (June)
 
 ## Now Pages
 
