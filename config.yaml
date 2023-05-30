@@ -63,7 +63,7 @@ frontmatter:
 
 
 params:
-  description: "A website built through Hugo and blogdown."
+  description: "Exploring paths for learning and musicianship on the French horn"
   author: "Steve Eddins"
   startYear: "2023"
   dateFormat: "Monday, January 2, 2006"
