@@ -24,9 +24,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fbb041">
     <meta name="msapplication-TileColor" content="#175c8f">
     <meta name="theme-color" content="#ffffff">
-    <title>{{ block "title" . }}
-      {{ .Title }} | {{ .Site.Title }}
-    {{ end }}</title>
+    <title>{{ block "title" . }}{{ if .IsHome }}{{- .Site.Title -}}{{ else }}{{- .Title }} | {{ .Site.Title -}}{{ end }}{{ end }}</title>
   </head>
   <body>
     <nav class="navbar">
