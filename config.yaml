@@ -70,6 +70,9 @@ params:
   siteLogo: "image/horn-logo.svg"
   ShowFullTextinRSS: true
   footerLinks:
+    - mailing-list:
+      name: "Mailing List"
+      url: "/mailing-list"
     - github:
       name: "GitHub"
       url: "https://github.com/eddins"
