@@ -49,6 +49,11 @@ body {
   float:right;
 }
 
+figure.portrait p {
+  font-size: smaller;
+  margin-top: 0px;
+}
+
 figure.sheet-music-snippet {
   width: 80%;
   height: auto;
