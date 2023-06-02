@@ -1,7 +1,7 @@
 ---
 ---
 
-{{% figure class="portrait" src="image/steve-horn-front-200x300.jpg"
+{{% figure class="portrait" src="image/steve-horn-angle-front-600x900.jpg"
   alt="Steve Eddins"
   caption="Steve Eddins" %}}
   
