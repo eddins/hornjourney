@@ -68,7 +68,7 @@
       {{ if gt now.Year .Site.Params.startYear }}
         {{ $year_range = print .Site.Params.startYear $dash now.Year }}
       {{ end }}
-      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> &copy; {{ $year_range }} {{ .Site.Params.author }} | 
+      &copy; {{ $year_range }} {{ .Site.Params.author }} | 
       <a href="{{ "post/index.xml" | relURL }}"><img src="{{ "image/rss-feed-16.svg" | relURL}}"/></a>
       {{ range .Site.Params.footerLinks }}
         | <a href="{{ .url }}">{{.name}}</a>
