@@ -30,7 +30,10 @@
     <nav class="navbar">
       <!-- LOGO -->
       <a href="{{ .Site.BaseURL }}"><img class="logo" 
-        src="{{ .Site.Params.siteLogo | relURL }}" style="width:32px;"/></a>
+        src="{{ .Site.Params.siteLogo | relURL }}" style="width:32px; vertical-align:middle"/>
+        <span class="nav-title">{{ .Site.Title }}</span>
+      </a>
+      
       <ul class="nav-links">
         {{ $current := . }}
         <!-- USING CHECKBOX HACK -->
