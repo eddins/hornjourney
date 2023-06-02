@@ -2,6 +2,8 @@
 title: Neighborhood
 ---
 
+This page includes online things that I've reading and watching and listening to lately.
+
 ## Horn Blogs
 
 - [Horn Matters](https://hornmatters.com), by John Ericson and Bruce Hembd
@@ -24,9 +26,10 @@ The sites listed above also contain many other horn-related resources.
 
 - [Steve on Image Processing](https://blogs.mathworks.com/steve). My very own.
 - [The MATLAB Blog](https://blogs.mathworks.com/matlab/), by Mike Croucher.
-- [MATLAB Community](https://blogs.mathworks.com/community/), by my friend Ned, one of the very few people who have worked at MathWorks longer than I have.
-- [Stuart's MATLAB Videos](https://blogs.mathworks.com/videos/), by my friend Stuart.
+- [MATLAB Community](https://blogs.mathworks.com/community/), by Ned Gulley, one of the very few people who have worked at MathWorks longer than I have.
+- [Stuart's MATLAB Videos](https://blogs.mathworks.com/videos/), by Stuart McGarrity.
 
-## Humor
+## Other
 
+- [Starchamber](https://starchamber.com), by Ned Gulley.
 - [xkcd](https://xkcd.com). Scientific, mathematical, engineering nerd humor. Right up my alley.
