@@ -37,4 +37,10 @@
   <main>
     {{ .Content }}
   </main>
+  
+  {{ if eq .Section "post" }}
+    <p><em>To make a comment or ask a question about this post, visit
+    the <a href="https://www.facebook.com/profile.php?id=100093083866574" 
+    target="_blank">Horn Journey Facebook page</a>.</em></p>
+  {{ end }}
 {{ end }}
