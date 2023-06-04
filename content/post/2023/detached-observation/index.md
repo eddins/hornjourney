@@ -14,7 +14,7 @@ Here’s an example from Hilliard. I usually play some kind of gentle, mid-range
   caption="Hilliard, _Lip Slurs for Horn_. Play on F, E, E<sup>♭</sup>, D, and D<sup>♭</sup> horns."
 %}}
 
-Tongue and fingers are out of the picture here, and what’s left is moving through the range. When I play in each key, I’m trying to play close attention to:
+Articulation and fingers are out of the picture here, and what’s left is moving through the range. When I play in each key, I’m trying to play close attention to:
 
 - What I hear
     - Tone quality
