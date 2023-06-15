@@ -3,7 +3,7 @@ title: Horn Camp 2023
 date: 2023-06-14
 ---
 
-This year, the [Kendall Betts Horn Camp](https://horncamp.org) has been as fun, inspirational, informative, and rewarding as always. Day 4 is wrapping up. There are two more full days to go, and then the campers depart on Saturday. New campers will arrive on Sunday to get ready for the second session.
+This year, the [Kendall Betts Horn Camp](https://horncamp.org) has been as fun, inspirational, informative, and rewarding as always. Day 4 is wrapping up as I write this. There are two more full days to go, and then the campers depart on Saturday. New campers will arrive on Sunday to get ready for the second session.
 
 Attending with me this week are 14 high school students, 27 college students, and 11 other post-college adults. The [13 faculty members](https://horncamp.org/faculty) are some of the best horn players and teachers in the country, and the [9 staff members](https://horncamp.org/staff) who make everything run smoothly are also fine horn players.
 
