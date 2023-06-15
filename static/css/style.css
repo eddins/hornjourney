@@ -87,6 +87,39 @@ figure.sheet-music-snippet p {
   font-size: smaller;
 }
 
+figure {
+  width: 60%;
+  height: auto;
+  border-style: solid;
+  border-color: LightGray;
+  border-width: thin;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  background: WhiteSmoke;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: Gainsboro;
+  border-width: thin;
+}
+
+figure figurecaption {
+  font-size: smaller;
+}
+
+figure p {
+  font-size: smaller;
+}
+
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
