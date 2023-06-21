@@ -1,8 +1,12 @@
+{{ $baseurl := .Site.BaseURL }}
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    {{ with .Site.Params.ogImage }}
+      <meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $baseurl }}{{ . }}{{ end }}" /> 
+    {{ end }}
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" /> 
     {{ if .Params.includeMailerLiteScript }}

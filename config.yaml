@@ -68,6 +68,7 @@ params:
   startYear: "2023"
   dateFormat: "Monday, January 2, 2006"
   siteLogo: "image/horn-logo.svg"
+  ogImage: "horn-journey-logo-og-image.png"
   ShowFullTextinRSS: true
   footerLinks:
     - mailing-list:
