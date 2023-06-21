@@ -1,5 +1,5 @@
 ---
-title: Horn Camp 2023
+title: Horn camp 2023
 date: 2023-06-14
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Detached Observation
+title: Detached observation
 date: 2023-06-04
 tags:
 - harmonic-series

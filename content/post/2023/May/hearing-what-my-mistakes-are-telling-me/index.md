@@ -1,5 +1,5 @@
 ---
-title: Hearing What My Mistakes Are Telling Me
+title: Hearing what my mistakes are telling me
 date: 2023-05-30
 ---
 

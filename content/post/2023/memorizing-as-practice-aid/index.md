@@ -1,5 +1,5 @@
 ---
-title: Memorizing as a Practice Aid
+title: Memorizing as a practice aid
 date: 2023-06-08
 ---
 
