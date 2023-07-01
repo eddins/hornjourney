@@ -1,6 +1,6 @@
 ---
 title: Learning to be more musical
-date: 2023-06-30
+date: 2023-07-01
 ---
 Musical expressiveness is another improvement area that's been on my mind. It has come up a few times in my lessons recently (Hi, [Hazel](https://www.hazeldeandavis.com)). It's an area where I would like to be able to observe and coach myself better, and so it was on my list of things to ask [horn camp](https://www.facebook.com/CormontMusic) [faculty members](https://horncamp.org/faculty) about earlier this month. Over the course of the week, I talked with Patrick Hughes, Paul Basler, Randy Gardner, and Natalie Grana about it.
 
