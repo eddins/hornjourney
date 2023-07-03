@@ -1,6 +1,8 @@
 ---
-title: Now
+title: Now (June 2023)
 lastmod: "2023-05-30"
+tags:
+  - "now"
 ---
 
 ## In Rehearsal
@@ -38,6 +40,6 @@ For Concord Orchestra section seating audition in August:
 
 [Kendall Betts Horn Camp](https://horncamp.org) (June)
 
-## Now Pages
+## "Now" Pages
 
 See [nownownow.com](https://nownownow.com) for more about Now pages.
