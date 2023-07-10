@@ -1,12 +1,12 @@
 ---
-title: "Claiming space"
+title: "Claiming my space"
 date: "2023-07-10"
 ---
-I’m writing today about something I learned last year at [horn camp](https://www.facebook.com/CormontMusic), and which has been reinforced by new experiences since then: **claiming space**.
+I’m writing today about something I learned last year at [horn camp](https://www.facebook.com/CormontMusic), and which has been reinforced by new experiences since then: **claiming my space**.
 
-Let me first back up, though, to 2017. That year, I learned about [Alexander Technique](https://en.wikipedia.org/wiki/Alexander_Technique) (AT) for the first time, from KBHC faculty member [Stasia Siena](https://horncamp.org/faculty/stasia-siena/). It’s not easy for me to describe it concisely, but I think of it as providing different ways to be aware of one’s body, both at rest and at motion. This increased awareness, in turn, enables one to find new ways to position and use one’s body in different activities. 
+Let me first back up, though, to 2017. That year, I learned about [Alexander Technique](https://en.wikipedia.org/wiki/Alexander_Technique) (AT) for the first time, from KBHC faculty member [Stasia Siena](https://horncamp.org/faculty/stasia-siena/). It’s not easy for me to describe it concisely, but I think of it as learning different ways to be aware of one’s body, both at rest and in motion. This increased awareness, in turn, enables one to find new ways to position and use one’s body in different activities. 
 
-AT is often used in the performing arts. Musicians use AT to become more efficient in their motion and positioning, reducing unnecessary tension and helping to avoid repetitive stress injuries. Wind instrument players can gain better understanding how the head, neck, shoulders, arms, and upper and lower torso all affect the way the lungs can expand and contract during inhalation and exhalation. In addition to lessons from Stasia each summer at horn camp, I have also learned about AT through lessons with [Miriam Bolkosky](https://www.practiceinharmony.com), cellist and AT coach in the Boston area.
+AT is often used by performing artists. Musicians use AT to become more efficient in their motion and positioning, reducing unnecessary tension and helping to avoid repetitive stress injuries. Wind instrument players can gain better understanding how the head, neck, shoulders, arms, and upper and lower torso all affect the way the lungs can expand and contract during inhalation and exhalation. In addition to lessons from Stasia each summer at horn camp, I have also learned about AT through lessons with [Miriam Bolkosky](https://www.practiceinharmony.com), cellist and AT coach in the Boston area.
 
 A key point for wind players is to position yourself to give the lungs maximum space for expansion. As I confessed Siena last month, I am an incurable sloucher. I tend to sit hunched forward, with my shoulders rounded forward. This position squeezes my lungs and upper airway. By letting my head, neck, shoulders, and upper chest flow upward, I can give my lungs and airway more space. 
 
