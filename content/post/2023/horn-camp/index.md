@@ -22,15 +22,11 @@ Some personal highlights:
 
 {{% figure
   src="image/eddins-welles-scully.jpg" 
-  width="50%"
-  height="auto"
   caption="Michael and I chatting with Artistic Director [Bernhard Scully](https://horncamp.org/bernhard-scully) following the faculty/staff concert"
 %}}
 
 {{% figure
   src="image/gardner.jpg" 
-  width="50%"
-  height="auto"
   caption="[Randy Gardner](https://horncamp.org/faculty/randy-gardner) presenting a master class on practice, performance, and teaching techniques"
 %}}
 
