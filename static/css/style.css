@@ -54,42 +54,9 @@ figure.portrait p {
   margin-top: 0px;
 }
 
-figure.sheet-music-snippet {
-  width: 80%;
-  height: auto;
-  border-style: solid;
-  border-color: LightGray;
-  border-width: thin;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 0em;
-  background: WhiteSmoke;
-}
-
-figure.sheet-music-snippet img {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-  border-style: solid;
-  border-color: Gainsboro;
-  border-width: thin;
-}
-
-figure.sheet-music-snippet figurecaption {
-  font-size: smaller;
-}
-
-figure.sheet-music-snippet p {
-  font-size: smaller;
-}
-
 figure {
-  width: 60%;
-  height: auto;
+  margin: 2rem 0;
+  display: inline-block;
   border-style: solid;
   border-color: LightGray;
   border-width: thin;
@@ -102,11 +69,10 @@ figure {
 }
 
 figure img {
-  width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-bottom: 1em; */
   border-style: solid;
   border-color: Gainsboro;
   border-width: thin;
@@ -290,3 +256,28 @@ textarea {
 p.gpb {
   display: none;
 }
+
+.relative {
+	position: relative;
+}
+.bg-center {
+	background-position: center;
+}
+.w-full {
+	width: 100%;
+}
+.h-auto {
+	height: auto;
+}
+@keyframes fadeIn {
+ 0% {
+	 opacity: 0;
+ }
+ to {
+	 opacity: 1;
+ }
+}
+.animate-fade {
+	animation: fadeIn 750ms ease-in-out;
+}
+
