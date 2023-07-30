@@ -10,7 +10,7 @@ For the past couple of months, I've been working on arpeggios using an exercise 
   title="this is a title">}}
 {{< /mfigure >}}
 
-In this slight revision, I have inserted dotted quarter notes into the exercise (measures 2 and 4) to give myself places to breathe. I have also arranged the keys in the circle of fifths (in the direction of adding flats) instead of increasing in chromatic steps as shown in the article.
+In this slight revision, I have inserted dotted quarter notes into the exercise (measures 2 and 4) to give myself places to breathe. I have also arranged the keys in the circle of fifths (in the direction of adding flats) instead of ascending in chromatic steps as shown in the article.
 
 There are several things I'm trying to pay attention to as I work through all the major keys:
 
