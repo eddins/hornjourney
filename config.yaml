@@ -1,4 +1,5 @@
 baseurl: "https://hornjourney.com/"
+enableInlineShortcodes: true
 languageCode: "en-us"
 title: "Horn Journey"
 
