@@ -34,8 +34,8 @@ menu:
       parent: about
       weight: 2
     - identifier: contact
-      name: "Contact"
-      url: "contact/"
+      name: "Email me"
+      url: "mailto:hobby_parlay.0o@icloud.com?subject=Horn%20Journal%20blog"
       parent: about
       weight: 3
     - identifier: follow

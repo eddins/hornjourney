@@ -48,18 +48,18 @@
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
               <li class="item-with-dropdown">
-                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                <a href="{{ .URL | absURL }}">{{ .Name }}</a>
                 <ul class="dropdown">
                   {{ range .Children }}
                     <li>
-                      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                      <a href="{{ .URL | absURL }}">{{ .Name }}</a>
                     </li>
                   {{ end }}
                 </ul>
               </li>
             {{ else }}
               <li>
-                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                <a href="{{ .URL | absURL }}">{{ .Name }}</a>
               </li>
             {{ end }}            
           {{ end }}
