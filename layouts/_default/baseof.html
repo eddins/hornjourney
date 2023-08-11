@@ -4,9 +4,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
-    {{ with .Site.Params.ogImage }}
-      <meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $baseurl }}{{ . }}{{ end }}" /> 
+    {{ $ogimage := resources.Get "og-image-background.png" }}
+    {{ $ogimage := $ogimage.Resize "1200x630" }}
+    {{ if eq .Section "post" }}
+      {{ $ogimage = $ogimage.Filter (images.Text "Blog" (dict
+        "color" "#c8c8c8"
+        "size" 40
+        "linespacing" 2
+        "x" 30
+        "y" 350
+        ))}}
     {{ end }}
+    {{ with .Page.Title }}
+      {{ $ogimage = $ogimage.Filter (images.Text . (dict
+        "color" "#ffffff"
+        "size" 40
+        "linespacing" 2
+         "x" 30
+         "y" 425
+        ))}}
+    {{ end }}
+    {{ $ogimage = $ogimage.Filter (images.Text .Page.Permalink (dict
+      "color" "#c8c8c8"
+      "size" 20
+      "linespacing" 1.5
+      "x" 30
+      "y" 580
+      ))}} 
+    <meta property="og:image" content="{{ $ogimage.Permalink }}"/> 
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" /> 
     {{ if .Params.includeMailerLiteScript }}
