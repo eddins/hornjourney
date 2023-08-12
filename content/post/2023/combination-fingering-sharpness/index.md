@@ -1,6 +1,6 @@
 ---
 title: "Intonation tendencies of combination fingerings"
-date: "2023-08-11"
+date: "2023-08-12"
 slug: "combination-fingering-intonation"
 ---
 
