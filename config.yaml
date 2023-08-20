@@ -85,3 +85,8 @@ markup:
 
 imaging:
   resampleFilter: Lanczos
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML fragments, like <sup> and <sub>
