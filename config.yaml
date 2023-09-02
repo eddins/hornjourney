@@ -38,12 +38,7 @@ menu:
       name: "Email me"
       url: "mailto:hobby_parlay.0o@icloud.com?subject=Horn%20Journal%20blog"
       parent: about
-      weight: 3
-    - identifier: follow
-      name: Follow
-      url: "follow/"
-      weight: 4
-      parent: about      
+      weight: 3   
 
 # Last modified date in Hugo (https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/)
 frontmatter:
@@ -72,6 +67,12 @@ params:
   ogImage: "horn-journey-logo-og-image.png"
   ShowFullTextinRSS: true
   footerLinks:
+    - rss:
+      name: "RSS"
+      url: "/post/index.xml"
+    - facebook:
+      name: "Facebook"
+      url: "https://www.facebook.com/steve.eddins.399/"
     - mailing-list:
       name: "Mailing List"
       url: "/mailing-list"
