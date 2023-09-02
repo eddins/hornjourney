@@ -26,6 +26,10 @@ body {
   font-style: italic;
 }
 
+div.footer {
+  font-size: smaller;
+}
+
 .date-info {
   color: #777;
   font-size: smaller;
