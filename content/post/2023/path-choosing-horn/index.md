@@ -14,6 +14,6 @@ I didn't know what that was, but completely besotted, I agreed to this plan. Sur
 
 A couple of months later, I was in the band! I vaguely recall the constant struggle of figuring out what note I was playing. (Is it a C? An E? Maybe a G?) 
 
-I got to be best friends with Robert, the first horn player. He's the only high friend that I have stayed in touch with. He's the one that nagged me into picking the horn back up in 2014, after a twenty-something-year gap, and for that I am most grateful! 
+I got to be best friends with Robert, the first horn player. He's the only high school friend that I have stayed in touch with. He's the one that nagged me into picking the horn back up in 2014, after a twenty-something-year gap, and for that I am most grateful! 
 
 Here's the answer to the question I usually hear about this story -- no, I have no idea whatever happened to the girl from my Spanish class.
