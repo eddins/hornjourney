@@ -7,6 +7,24 @@ I've been experimenting with a new way to practice accuracy. I call it "Gardner'
 
 Gardner's challenge uses Maxime-Alphonse Book 1. Starting at the beginning of the book, play etudes 1 through 3, straight through, without stopping. If any notes are missed or chipped, then come back to it the next day and try again. Keep doing that until you play all three etudes cleanly; after that, you can move on to the next three etudes in the book. 
 
+<div style="margin-left:0.5in; border-style:solid; border-width:0.5pt; padding:0.5em;">
+
+*17-Sep-2023 update: I didn't remember Randy's explanation correctly. He says:*
+
+> Progress one etude at a time.
+> 
+> Require yourself to perform each etude three times perfectly (including clean attacks, accurate dynamics, etc.) before moving on to a different etude.  If you miss the first note of a performance, play the entire etude through before restarting.  Begin the process all over if you miss the last note of the third repetition.
+> 
+> Following a sing-buzz-play process compounds the benefits.  Sing an etude accurately and in-tune, then buzz the etude accurately and in-tune, before performing it on your horn.
+> 
+> This sing-buzz-play process is highly productive when addressing accuracy challenges in any repertoire.
+
+*See the "Accuracy and Intonation" chapter of Randy's book,* [Good Vibrations: Masterclasses for Brass Players](https://poperepair.com/gardner-randy-good-vibrations/).
+
+*My apologies for the confusion!*
+
+</div>
+
 Randy said he sometimes suggests this as something to try during the summer, and he warned us that it could be frustrating and require a lot of patience. He said that some of his students have needed weeks to move past the first three etudes. (I can now report that I also belong to this group!)
 
 {{< mfigure figcaption="From *200 Études nouvelles mélodiques et progressives pour cor*, book 1, by Maxime-Alphonse">}}
