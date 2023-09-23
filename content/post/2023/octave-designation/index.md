@@ -44,4 +44,4 @@ Although I've been thinking about the pitch notation system in *The Horn Call* f
 
 So, what do you think, dear readers? Is there any chance of convincing the [IHS](https://hornsociety.org) to leave the outdated and awkward Helmholtz system behind?
 
-I wonder whether sending a letter to the editor for *The Horn Call* would be worth the effort.
+I wonder whether sending a letter to the editor of *The Horn Call* would be worth the effort.
