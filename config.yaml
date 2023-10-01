@@ -12,18 +12,18 @@ menu:
       name: Archive
       url: "post/"
       weight: 1
-    - identifier: neighborhood
-      name: Neighborhood
-      url: "neighborhood/"
-      weight: 3
+    - identifier: calendar
+      name: Calendar
+      url: "calendar/"
+      weight: 2
     - identifier: now
       name: "Now"
       url: "tags/now/"
-      weight: 4
+      weight: 3
     - identifier: about
       name: About
       url: "about/"
-      weight: 5
+      weight: 4
     - identifier: about-me
       name: "Me"
       url: "about/"
@@ -34,11 +34,16 @@ menu:
       url: "about-site/"
       parent: about
       weight: 2
+    - identifier: neighborhood
+      name: Neighborhood
+      url: "neighborhood/"
+      parent: about
+      weight: 3    
     - identifier: contact
       name: "Email me"
       url: "mailto:hobby_parlay.0o@icloud.com?subject=Horn%20Journal%20blog"
       parent: about
-      weight: 3   
+      weight: 4  
 
 # Last modified date in Hugo (https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/)
 frontmatter:
