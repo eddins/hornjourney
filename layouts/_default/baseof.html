@@ -103,7 +103,7 @@
         {{ end }}
         &copy; {{ $year_range }} {{ .Site.Params.author }} 
         {{ range .Site.Params.footerLinks }}
-          | <a href="{{ .url }}">{{.name}}</a>
+          | <a class="footer-link" href="{{ .url }}">{{.name}}</a>
         {{ end }}
       </div>
     </footer>    
