@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+    <h1>{{ .Page.Title }}</h1>
+    {{ .Content }}
+
+    <h2>Recent blog posts</h2>
+    <ul>
+      {{ $posts := (where .Site.RegularPages "Section" "post") }}
+
+      {{ range first 5 $posts }}
+      <li>
+        <a class="archive-link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+        <span class="date-info">({{ .Date.Format "January 2, 2006" }})</span>        
+      </li>
+      {{ end }}
+    </ul>
+
+    <a href="/post" class="button">Browse all posts ({{ len $posts }})</a>
+
+
+{{ end }}
