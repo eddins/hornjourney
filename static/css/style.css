@@ -30,6 +30,46 @@ div.footer {
   font-size: smaller;
 }
 
+a.archive-link:link, a.archive-link:visited a.archive-link:active {
+  text-decoration: none;
+  color: black;
+}
+
+a.archive-link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a.footer-link:link, a.footer-link:visited a.footer-link:active {
+  text-decoration: none;
+  color: black;
+}
+
+a.footer-link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.button {
+  background-color: rgb(23,92,143);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .date-info {
   color: #777;
   font-size: smaller;
@@ -94,6 +134,10 @@ footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
+}
+
+footer {
+  clear: both;
 }
 
 /* NAVBAR STYLING STARTS */
