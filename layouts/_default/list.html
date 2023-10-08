@@ -1,14 +1,27 @@
 {{ define "main" }}
+  <h1>{{ .Title | markdownify }}</h1>
+  
   {{ .Content }}
+  
+  {{ $num_years := .Pages.GroupByDate "2006" | len }}
 
-  <ul>
-    {{ $pages := .Pages }}
-    {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
-    {{ range (where $pages "Section" "!=" "") }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-        <span class="date-info">({{ .Date.Format "January 2, 2006" }})</span>
-      </li>
-    {{ end }}
-  </ul>
+  {{ if gt $num_years 1 }}
+    <ul>
+      {{- range .Pages.GroupByDate "2006" -}}
+        <li><a class="archive-link" href="#{{ .Key }}">{{ .Key }} ({{ len .Pages }} posts)</a></li>
+      {{end}}
+    </ul>
+  {{ end }}
+
+  {{- range .Pages.GroupByDate "2006" -}}
+    <h2 id="{{ .Key }}">{{ .Key }} ({{ len .Pages }} posts) </h2>
+    <ul class="archive">
+      {{ range .Pages }}
+        <li>
+          <a class="archive-link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | markdownify}}</a>
+          <span class="date-info">({{ .Date.Format "January 2, 2006" }})</span>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
 {{ end }}
