@@ -7,6 +7,4 @@
   
 _Exploring paths for learning and musicianship on the French horn_
 
-Recent posts:
-
 
