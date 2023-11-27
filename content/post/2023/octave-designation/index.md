@@ -15,7 +15,7 @@ Whenever I receive my latest issue of *The Horn Call* in the mail, before readin
 
 This is called [*Helmholtz pitch notation*](https://en.wikipedia.org/wiki/Helmholtz_pitch_notation), and it is an objectively **terrible** system. 
 
-In my practice journal and other notes, I use [scientific pitch notation](https://en.wikipedia.org/wiki/Helmholtz_pitch_notation), also known as international pitch notation, or American standard pitch notation:
+In my practice journal and other notes, I use [*scientific pitch notation*](https://en.wikipedia.org/wiki/Scientific_pitch_notation), also known as international pitch notation, or American standard pitch notation:
 
 {{< mfigure figcaption="Scientific pitch notation" >}}
   {{< img src="scientific-pitch-notation.png" alt="scientific pitch notation" 
