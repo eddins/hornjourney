@@ -1,5 +1,5 @@
 ---
-title: "Trouble-shooting the high notes"
+title: "Troubleshooting the high notes"
 date: "2023-12-09"
 slug: "trouble-shooting-high-notes"
 ---
@@ -14,7 +14,7 @@ During the rehearsal, though, my buzz simply dropped out near the top, and I cou
 
 A few days later, in my practice at home, I put this back on the stand and tried it once more, starting at rehearsal 2. When the buzz dropped again, in the same place, I put my horn down and stared at the music stand. OK, I thought, this is a problem, and I need to fix it before the next rehearsal. What's going on?
 
-If my teacher, [Hazel](https://www.hazeldeandavis.com), hadn't been on tour at the time, I might have tried to schedule a trouble-shooting lesson, but that wasn't an option. Still, I thought, if I were sitting in a lesson, what would she say?
+If my teacher, [Hazel](https://www.hazeldeandavis.com), hadn't been on tour at the time, I might have tried to schedule a troubleshooting lesson, but that wasn't an option. Still, I thought, if I were sitting in a lesson, what would she say?
 
 "Try playing it slurred," imaginary Hazel said.
 
@@ -34,4 +34,4 @@ The changes also help me handle the various high Bs in the piece, such as this o
   {{< img src="prokofiev-rj-v-horn1.png" alt="Prokofiev, Romeo & Juliet Suite No. 2, V, Horn 1 in F" title="Prokofiev, Romeo & Juliet Suite No. 2, V, Horn 1 in F">}}
 {{< /mfigure >}}
 
-I'm happy to take the win, and I'm grateful to Hazel for teaching me over the years how to self-diagnose and trouble-shoot playing problems.
+I'm happy to take the win, and I'm grateful to Hazel for teaching me over the years how to self-diagnose and troubleshoot playing problems.
