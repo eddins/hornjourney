@@ -1,5 +1,5 @@
 {
-    "scripts": {
-        "postinstall": "cd functions/staticman && yarn --production"
-    }
+  "dependencies": {
+    "@staticman/netlify-functions": "^1.7.0"
+  }
 }
