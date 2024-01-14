@@ -35,8 +35,32 @@
   {{ if eq .Section "post" }}
     <div>
       <hr>
-      <p>Have some thoughts on this post?</p>
-      <em><a class="button" href="mailto:hobby_parlay.0o@icloud.com?subject=Re: {{ .Title }}&body=This is a reply to {{ .Title }} that appeared at {{ .Permalink }}">Reply with an email</em></a>
-    </div>
+      <form method="post" action="/.netlify/functions/staticman?branch=main">
+        <p>
+          <label for="name">Name</label>
+          <br>
+          <input id="name" type="text" name="fields[name]" placeholder="John Doe">
+        </p>
+
+        <p>
+          <label for="message">Comment</label>
+          <br>
+          <textarea id="message" name="fields[message]" placeholder="Here's the thing..."></textarea>
+        </p>
+
+        <input type="hidden" name="fields[post]" value="{{ .Slug }}">
+        <input type="hidden" name="options[redirect]" value="/thankyou">
+        <input type="hidden" name="options[redirectError]" value="/error">
+
+        {{ if false }}
+          <div class="g-recaptcha" data-sitekey="bogus"></div>
+          <script src='https://www.google.com/recaptcha/api.js'></script>
+        {{ end }}
+
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>      
+     </div>
   {{ end }}
 {{ end }}
