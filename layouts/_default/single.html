@@ -32,7 +32,8 @@
     {{ .Content }}
   </main>
   
-  {{ if eq .Section "post" }}
+{{ if false }}
+   {{ if eq .Section "post" }}
     <hr/>
     <section class="staticman-comments">
 
@@ -120,5 +121,6 @@
       </form>-->
         
     </section>
+  {{ end }}
   {{ end }}
 {{ end }}
