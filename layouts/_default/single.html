@@ -32,12 +32,11 @@
     {{ .Content }}
   </main>
   
-{{ if false }}
    {{ if eq .Section "post" }}
     <hr/>
     <section class="staticman-comments">
 
-      {{ $slug := replace .RelPermalink "/" "" }}
+      {{ $slug := replace .RelPermalink "/" "-" }}
 
       {{ if .Site.Data.comments }}
 	    {{ $comments := index $.Site.Data.comments $slug }}
@@ -56,14 +55,14 @@
           {{ if not .parent }}
             {{ $.Scratch.Add "hasComments" 1 }}
             <article id="comment-{{ $.Scratch.Get "hasComments" }}" class="static-comment">
-              <!-- <img class="comment-avatar" src="https://www.gravatar.com/avatar/{{ .email }}?s=48"> -->
-              {{ if .website }}
-                <h4 class="comment-author"><a rel="external nofollow" href="{{ .website }}">{{ .name }}</a></h4>
-              {{ else }}
-                <h4 class="comment-author">{{ .name }}</h4>
-              {{ end }}
+              <h4 class="comment-author">{{ .name }}</h4>
               <div class="comment-timestamp">
-                <a href="#comment-{{ $.Scratch.Get "hasComments" }}" title="Permalink to this comment"><time datetime="{{ .date }}">{{ dateFormat (default (i18n "shortdateFormat") .Site.Params.dateformat) .date}}</time></a>
+                <a href="#comment-{{ $.Scratch.Get "hasComments" }}" 
+                  title="Permalink to this comment">
+                  <time datetime="{{ .date }}">
+                    {{ dateFormat (default "Jan 2, 2006 15:04:05" .Site.Params.dateformat) .date}}
+                  </time>
+                </a>
               </div>
               <div class="comment-content">
                 <p>{{ .comment | markdownify }}</p>
@@ -75,20 +74,21 @@
 
       <h3>Add a comment</h3>
       <form class="js-form form" method="post" action="/.netlify/functions/staticman?branch=main">
-        <input type="hidden" name="fields[post]" value="{{ replace .RelPermalink "/" "" }}">
+        <input type="hidden" name="fields[post]" value="{{ replace .RelPermalink "/" "-" }}">
         <input type="hidden" name="options[redirect]" value="/comment-thank-you">
         <input type="hidden" name="options[redirectError]" value="/comment-error">
         <input type="hidden" name="options[parent]" value="">
 
         <fieldset>
           <div class="textfield">
-            <textarea name="fields[message]" placeholder="You can use Markdown syntax"></textarea>
+            <input name="fields[name]" type="text" placeholder="Your name"/>
           </div>
         </fieldset>
 
         <fieldset>
           <div class="textfield">
-            <input name="fields[name]" type="text" placeholder="Your name"/>
+            <textarea name="fields[message]" placeholder="Your comment (use Markdown syntax if you wish)"
+              rows="5" cols="40"></textarea>
           </div>
         </fieldset>
 
@@ -124,5 +124,4 @@
         
     </section>
   {{ end }}
-{{ end }}
 {{ end }}

@@ -26,6 +26,10 @@ body {
   font-style: italic;
 }
 
+fieldset {
+  border-style: none;
+}
+
 div.footer {
   font-size: smaller;
 }
