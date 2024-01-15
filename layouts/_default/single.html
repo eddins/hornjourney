@@ -32,7 +32,6 @@
     {{ .Content }}
   </main>
   
-{{ if false }}
    {{ if eq .Section "post" }}
     <hr/>
     <section class="staticman-comments">
@@ -74,13 +73,15 @@
       {{ end }} 
 
       <h3>Add a comment</h3>
-      <form class="js-form form" method="post" action="{{ .Site.Params.staticman.api }}">
-        <input type="hidden" name="options.slug" value="{{ replace .RelPermalink "/" "" }}">
-        <input type="hidden" name="options.parent" value="">
+      <form class="js-form form" method="post" action="/.netlify/functions/staticman?branch=main">
+        <input type="hidden" name="fields[post]" value="{{ replace .RelPermalink "/" "" }}">
+        <input type="hidden" name="options[redirect]" value="/comment-thank-you">
+        <input type="hidden" name="options[redirectError]" value="/comment-error">
+        <input type="hidden" name="options[parent]" value="">
 
         <fieldset>
           <div class="textfield">
-            <textarea name="fields[comment]" placeholder="You can use Markdown syntax"></textarea>
+            <textarea name="fields[message]" placeholder="You can use Markdown syntax"></textarea>
           </div>
         </fieldset>
 
@@ -121,6 +122,5 @@
       </form>-->
         
     </section>
-  {{ end }}
   {{ end }}
 {{ end }}
