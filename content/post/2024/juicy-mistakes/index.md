@@ -4,7 +4,7 @@ date: "2024-01-15"
 ---
 Lately, I’ve been focusing on a chapter called “Juicy Mistakes” in William Westney’s *The Perfect Wrong Note*. The author opens the chapter with a description of one traditional practice room concept: Mistakes should be prevented in the practice room because the brain will learn it the way we play it, mistakes and all.
 
-{{< mfigure figcaption="*The Perfect Wrong Note*, by William Westney">}}
+{{< mfigure figcaption="*The Perfect Wrong Note*, by William Westney, Amadeus, 2006">}}
   {{< img src="perfect-wrong-note-cover.jpg" alt="book cover, The Perfect Wrong Note" title="book cover, The Perfect Wrong Note">}}
 {{< /mfigure >}}
 
