@@ -37,41 +37,35 @@
     <section class="staticman-comments">
 
       {{ $slug := replace .RelPermalink "/" "-" }}
-
-      {{ if .Site.Data.comments }}
-	    {{ $comments := index $.Site.Data.comments $slug }}
-        {{ if $comments }}
-          {{ if gt (len $comments) 1  }}
-            <h3>{{ len $comments  }} comments</h3>
-          {{ else }}
-            <h3>{{ len $comments  }} comment</h3>
-          {{ end }}
+      {{ $this_post_comments := slice }}
+      {{ range .Site.Data.comments }}
+        {{ if eq .post $slug }}
+          {{ $this_post_comments = $this_post_comments | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $num_comments := len $this_post_comments }}
+      {{ if eq $num_comments 0 }}
+        <h3>No comments</h3>
+      {{ else }}
+        {{ if eq $num_comments 1 }}
+          <h3>1 comment</h3>
         {{ else }}
-          <h3>No comments</h3>
+          <h3>{{ $num_comments }} comments</h3>
         {{ end }}
-
-        {{ $.Scratch.Set "hasComments" 0 }}
-        {{ range $index, $comments := (index $.Site.Data.comments $slug ) }}
-          {{ if not .parent }}
-            {{ $.Scratch.Add "hasComments" 1 }}
-            <article id="comment-{{ $.Scratch.Get "hasComments" }}" class="static-comment">
-              <h4 class="comment-author">{{ .name }}</h4>
-              <div class="comment-timestamp">
-                <a href="#comment-{{ $.Scratch.Get "hasComments" }}" 
-                  title="Permalink to this comment">
-                  <time datetime="{{ .date }}">
-                    {{ dateFormat (default "Jan 2, 2006 15:04:05" .Site.Params.dateformat) .date}}
-                  </time>
-                </a>
-              </div>
-              <div class="comment-content">
-                <p>{{ .comment | markdownify }}</p>
-              </div>
-            </article>
-          {{ end }}
-        {{ end }}
-      {{ end }} 
-
+      {{ end }}
+      
+      {{ range sort $this_post_comments "date" "desc" }}
+        <p>
+          <span class="comment-name">{{ .name }}</span>
+          <time datetime="{{ .date }}">
+            {{ dateFormat (default "on Jan 2, 2006 at 15:04:05" .Site.Params.dateformat) .date}}
+          </time>
+        </p>
+        <p class="comment-content">
+          {{ .message | markdownify }}
+        </p>
+      {{ end }}
+        
       <h3>Add a comment</h3>
       <form class="js-form form" method="post" action="/.netlify/functions/staticman?branch=main">
         <input type="hidden" name="fields[post]" value="{{ replace .RelPermalink "/" "-" }}">

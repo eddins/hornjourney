@@ -26,6 +26,14 @@ body {
   font-style: italic;
 }
 
+.comment-name {
+  font-weight: bold;
+}
+
+p.comment-content {
+  margin-left: 2ex;
+}
+
 fieldset {
   border-style: none;
 }
