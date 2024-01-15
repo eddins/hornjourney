@@ -74,8 +74,8 @@
 
       <h3>Add a comment</h3>
       <form class="js-form form" method="post" action="{{ .Site.Params.staticman.api }}">
-        <input type="hidden" name="options[slug]" value="{{ replace .RelPermalink "/" "" }}">
-        <input type="hidden" name="options[parent]" value="">
+        <input type="hidden" name="options.slug" value="{{ replace .RelPermalink "/" "" }}">
+        <input type="hidden" name="options.parent" value="">
 
         <fieldset>
           <div class="textfield">
