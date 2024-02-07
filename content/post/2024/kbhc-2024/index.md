@@ -30,7 +30,7 @@ Beginning early the next morning, I was quickly immersed into the horn program, 
   title="Becker warmup">}}
 {{< /mfigure >}}
 
-{{< mfigure figcaption="Solo coaching with faculty member Frank Lloyd">}}
+{{< mfigure figcaption="Solo coaching with faculty member Frank Lloyd and participant Michael Welles">}}
   {{< img src="solo-coaching-lloyd.jpg" alt="solo coaching" 
   title="solo coaching">}}
 {{< /mfigure >}}
