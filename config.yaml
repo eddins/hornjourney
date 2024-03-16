@@ -63,6 +63,7 @@ frontmatter:
   expiryDate:
     - expiryDate
 
+enableEmoji: true
 
 params:
   description: "Exploring paths for learning and musicianship on the French horn"
@@ -76,12 +77,12 @@ params:
     - rss:
       name: "RSS"
       url: "/post/index.xml"
-    - facebook:
-      name: "Facebook"
-      url: "https://www.facebook.com/steve.eddins.399/"
     - mailing-list:
       name: "Mailing List"
       url: "/mailing-list"
+    - matrix-values:
+      name: "Matrix Values"
+      url: "https://matrixvalues.com"
 
 markup:
   highlight:
