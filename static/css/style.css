@@ -1,3 +1,17 @@
+/* COLORS */
+:root {
+  --baleine-blue: rgb(23,92,143);
+  --blueish-gray: rgb(97,104,117);
+  
+  --unvisited-link-color: var(--baleine-blue);
+  --visited-link-color: var(--blueish-gray);
+  --hover-link-color: var(--baleine-blue);
+  
+  --nav-menu-text-color: white;
+  
+  --button-text-color: white;
+}
+
 body {
   max-width: 800px;
   margin: auto;
@@ -40,49 +54,6 @@ fieldset {
 
 div.footer {
   font-size: smaller;
-}
-
-a {
-  font-weight: bold;
-}
-
-a:link {
-  text-decoration: none;
-  color: rgb(23,92,143);
-}
-
-a:visited {
-  text-decoration: none;
-  color: rgb(23,92,143);
-}
-
-a:hover {
-  text-decoration: underline;
-  color: rgb(23,92,143);
-}
-
-a.archive-link:link {
-  text-decoration: none;
-  color: black;
-}
-
-a.archive-link:hover {
-  color: rgb(23,92,143);
-  text-decoration: underline;
-}
-
-a.footer-link:link, a.footer-link:visited a.footer-link:active {
-  text-decoration: none;
-  color: black;
-}
-
-a.footer-link:hover {
-  color: rgb(23,92,143);
-  text-decoration: underline;
-}
-
-a.button:link {
-  color: white;
 }
 
 .button {
@@ -165,7 +136,6 @@ figure p {
   font-size: smaller;
 }
 
-footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
@@ -182,6 +152,7 @@ img.logo {
   width: 32px;
 }
 
+
 .navbar {
   display: flex;
   align-items: center;
@@ -191,10 +162,7 @@ img.logo {
   color: #fff;
 }
 
-.nav-links a {
-  color: #fff;
-  font-weight: normal;
-}
+
 
 .nav-title a {
   font-weight: normal;
@@ -373,3 +341,44 @@ p.gpb {
 	animation: fadeIn 750ms ease-in-out;
 }
 
+/* LINK TREATMENTS */
+
+a:link {
+  color: var(--unvisited-link-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--visited-link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-link-color);
+  text-decoration: underline;
+}
+
+.menu a:link, .menu a:visited, .menu a:hover {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a.button {
+  color: var(--button-text-color);
+}
+
+#prev-link a:link, #next-link a:link {
+  color: var(--unvisited-link-color);
+  text-decoration: none;
+}
+
+#prev-link a:visited, #next-link a:visited {
+  color: var(--visited-link-color);
+  text-decoration: none;
+}
+
+#prev-link a:hover, #next-link a:hover {
+  color: var(--visited-link-color);
+  text-decoration: underline;
+}
