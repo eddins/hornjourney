@@ -81,6 +81,10 @@ a.footer-link:hover {
   text-decoration: underline;
 }
 
+a.button:link {
+  color: white;
+}
+
 .button {
   background-color: rgb(23,92,143);
   border: none;
@@ -193,6 +197,10 @@ img.logo {
 }
 
 .nav-title a {
+  font-weight: normal;
+}
+
+a.nav-title {
   font-weight: normal;
 }
 
