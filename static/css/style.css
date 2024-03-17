@@ -42,14 +42,33 @@ div.footer {
   font-size: smaller;
 }
 
-a.archive-link:link, a.archive-link:visited a.archive-link:active {
+a {
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(23,92,143);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(23,92,143);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(23,92,143);
+}
+
+a.archive-link:link {
   text-decoration: none;
   color: black;
 }
 
 a.archive-link:hover {
-  color: blue;
-  text-decoration: none;
+  color: rgb(23,92,143);
+  text-decoration: underline;
 }
 
 a.footer-link:link, a.footer-link:visited a.footer-link:active {
@@ -58,14 +77,14 @@ a.footer-link:link, a.footer-link:visited a.footer-link:active {
 }
 
 a.footer-link:hover {
-  color: blue;
-  text-decoration: none;
+  color: rgb(23,92,143);
+  text-decoration: underline;
 }
 
 .button {
   background-color: rgb(23,92,143);
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   color: white;
   padding: 4px 12px;
   text-align: center;
@@ -170,6 +189,11 @@ img.logo {
 
 .nav-links a {
   color: #fff;
+  font-weight: normal;
+}
+
+.nav-title a {
+  font-weight: normal;
 }
 
 /* NAVBAR MENU */
