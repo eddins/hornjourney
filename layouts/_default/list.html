@@ -18,7 +18,8 @@
     <ul class="archive">
       {{ range .Pages }}
         <li>
-          <a class="archive-link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | markdownify}}</a>
+          <a class="archive-link" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ if .Draft }}DRAFT - {{ end }}
+            {{ .Title | markdownify}}</a>
           <span class="date-info">({{ .Date.Format "January 2, 2006" }})</span>
         </li>
       {{ end }}

@@ -9,7 +9,8 @@
 
       {{ range first 5 $posts }}
       <li>
-        <a class="archive-link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+        <a class="archive-link" href="{{ .Permalink }}" title="{{ .Title }}">{{ if .Draft }}DRAFT - {{end}}
+          {{ .Title | markdownify }}</a>
         <span class="date-info">({{ .Date.Format "January 2, 2006" }})</span>        
       </li>
       {{ end }}
