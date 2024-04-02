@@ -15,7 +15,7 @@
       </span>
     {{ end }}
   {{ end }}
-  <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+  <h1><span class="title">{{ if .Draft }}DRAFT - {{ end }}{{ .Title | markdownify }}</span></h1>
   {{ if eq .Section "post" }}
     <p>
       <span class="byline">{{ .Site.Params.author }}</span>
@@ -31,5 +31,4 @@
   <main>
     {{ .Content }}
   </main>
-
 {{ end }}
