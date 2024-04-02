@@ -8,7 +8,7 @@ Today is the fourth day since my retirement from MathWorks, after working there 
 
 My horn recovery effort began on Saturday. I have practiced 2-3 hours per day since then. My routine so far has been to practice two sessions in the morning, with some exercise in between. Then, if I don't have a rehearsal in the evening, I practice once more later in the day. I'm sure this will evolve as I get accustomed to my new schedule.
 
-This seems like a good to take a look at everything I need to play in the next couple of months so that I don't caught unprepared.
+This seems like a good time to take a look at everything I need to play in the next couple of months so that I don't caught unprepared.
 
 - Melrose family concert (April 7)
     - Beethoven 5, movement 1
