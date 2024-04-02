@@ -11,7 +11,7 @@ My horn recovery effort began on Saturday. I have practiced 2-3 hours per day si
 This seems like a good to take a look at everything I need to play in the next couple of months so that I don't caught unprepared.
 
 - Melrose family concert (April 7)
-    - Beethoven 5
+    - Beethoven 5, movement 1
     - Prokofiev Peter and the Wolf
     
 {{< mfigure figcaption="Prokofiev, *Peter and the Wolf* (Horn 1 in F). The grace-note figures are the trickiest things for me to work out.">}}
