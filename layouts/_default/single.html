@@ -19,11 +19,12 @@
   {{ if eq .Section "post" }}
     <p>
       <span class="byline">{{ .Site.Params.author }}</span>
+      {{ $show_posted_date := gt .Date 0 }}
+      {{ if $show_posted_date }}
+        <br/> <span class="date-info">Posted on 
+        {{ .Date.Format .Site.Params.dateFormat }}</span> 
+      {{ end }}     
     </p>
-    {{ $show_posted_date := gt .Date 0 }}
-    {{ if $show_posted_date }}
-      <p class="date-info">Posted on {{ .Date.Format .Site.Params.dateFormat }}</p>
-    {{ end }}
   {{ else if eq .Title "Now" }}
     <p class="date-info">Updated on {{ .Lastmod.Format .Site.Params.dateFormat }}</p>
   {{ end }}
