@@ -3,7 +3,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    {{ with .Description }}
+      <meta property="og:description" content="{{ . }}" />
+    {{ end }}     
     {{ $ogimage := resources.Get "og-image-background.png" }}
     {{ $ogimage := $ogimage.Resize "1200x630" }}
     {{ if eq .Section "post" }}

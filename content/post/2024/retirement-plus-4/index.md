@@ -2,6 +2,7 @@
 title: "Retirement + 4 Days"
 date: "2024-04-02"
 slug: "retirement-plus-4"
+description: "After retiring last week, I am recovering from a month of disrupted practice."
 ---
 
 Today is the fourth day since my retirement from MathWorks, after working there for 30+ years. The last month or so was rather intense. I had lengthy conversations with many people, and I had long lists of things I wanted to get done before my last day. As a result, my horn practice was more disrupted in March than at any other time in the past 8 years or so. It bothered me, but I just had to let go of worrying about it.
