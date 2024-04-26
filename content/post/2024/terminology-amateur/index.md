@@ -2,7 +2,6 @@
 title: "Thinking About the Word \"Amateur\""
 date: "2024-04-25"
 slug: "thinking-about-amateur"
-draft: true
 ---
 
 I spent a good portion of my engineering and software development career coaching developers on how to name things in their software interfaces. Many of the engineers and developers tended to focus excessively on issues of form, such as capitalization and abbreviation conventions. In contrast, I focused my coaching on **choosing the right words** for the names, with the idea of basing names on short phrases that effectively, expressively, and concisely communicate the intended meaning to users of the software.
