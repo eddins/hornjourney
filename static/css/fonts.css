@@ -1,7 +1,155 @@
-body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+/* Base font 16px, type scale 1.2 */
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
 }
+body, .article {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: auto;
+}
+h1, .h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  line-height: 1.71428571em;
+  margin-top: 0.85714286em;
+  margin-bottom: 1.71428572em;
+}
+h2, .h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4375em;
+  line-height: 1.04347826em;
+  margin-top: 1.04347826em;
+  margin-bottom: 1.04347826em;
+}
+h3, .h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1875em;
+  line-height: 1.26315789em;
+  margin-top: 1.26315789em;
+  margin-bottom: 0em;
+}
+h4, .h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+h5, .h5 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
 code {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 85%;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+
+.menu, #prev-link, #next-link {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+@media screen and (min-width: 720px) {
+  /* Base font 18 px, type scale 1.25 */
+  html, .root {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  body, .article {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: auto;
+  }
+  h1, .h1 {
+    font-size: 1.94444444em;
+    line-height: 1.54285714em;
+    margin-top: 0.77142857em;
+    margin-bottom: 1.54285714em;
+  }
+  h2, .h2 {
+    font-size: 1.55555556em;
+    line-height: 1.92857143em;
+    margin-top: 0.96428571em;
+    margin-bottom: 0.96428571em;
+  }
+  h3, .h3 {
+    font-size: 1.27777778em;
+    line-height: 1.17391304em;
+    margin-top: 1.17391304em;
+    margin-bottom: 0em;
+  }
+  h4, .h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+  }
+  h5, .h5 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+  }
+  p, ul, ol, pre, table, blockquote {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+  }
+  ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+
+  /* Let's make sure all's aligned */
+  hr, .hr {
+    border: 1px solid;
+    margin: -1px 0;
+  }
+  a, b, i, strong, em, small, code {
+    line-height: 0;
+  }
+  sub, sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
 }

@@ -3,9 +3,9 @@
   --baleine-blue: rgb(23,92,143);
   --blueish-gray: rgb(97,104,117);
   
-  --unvisited-link-color: var(--baleine-blue);
-  --visited-link-color: var(--blueish-gray);
-  --hover-link-color: var(--baleine-blue);
+  --unvisited-link-color: RoyalBlue;
+  --visited-link-color: RoyalBlue;
+  --hover-link-color: RoyalBlue;
   
   --nav-menu-text-color: white;
   
@@ -30,9 +30,10 @@ body {
 }
 
 .nav-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   font-size: 26px;
-  font-style: italic;
+  font-style: normal;
   padding-left: 10px;
 }
 
@@ -345,12 +346,12 @@ p.gpb {
 
 a:link {
   color: var(--unvisited-link-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
   color: var(--visited-link-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
