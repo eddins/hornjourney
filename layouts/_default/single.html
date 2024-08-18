@@ -21,7 +21,7 @@
       <span class="byline">{{ .Site.Params.author }}</span>
       {{ $show_posted_date := gt .Date 0 }}
       {{ if $show_posted_date }}
-        <br/> <span class="date-info">Posted on 
+        <br/> <span class="date-info">
         {{ .Date.Format .Site.Params.dateFormat }}</span> 
       {{ end }}     
     </p>

@@ -69,7 +69,7 @@ params:
   description: "Exploring paths for learning and musicianship on the French horn"
   author: "Steve Eddins"
   startYear: "2023"
-  dateFormat: "Monday, January 2, 2006"
+  dateFormat: "January 2, 2006"
   siteLogo: "image/horn-logo.svg"
   ogImage: "horn-journey-logo-og-image.png"
   ShowFullTextinRSS: true
