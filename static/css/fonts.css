@@ -12,35 +12,35 @@ body, .article {
 h1, .h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.75em;
-  line-height: 1.71428571em;
+  line-height: 1.3em;
   margin-top: 0.85714286em;
   margin-bottom: 1.71428572em;
 }
 h2, .h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.4375em;
-  line-height: 1.04347826em;
+  line-height: 1.3em;
   margin-top: 1.04347826em;
   margin-bottom: 1.04347826em;
 }
 h3, .h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1875em;
-  line-height: 1.26315789em;
+  line-height: 1.3em;
   margin-top: 1.26315789em;
   margin-bottom: 0em;
 }
 h4, .h4 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin-top: 1.5em;
   margin-bottom: 0em;
 }
 h5, .h5 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin-top: 1.5em;
   margin-bottom: 0em;
 }
@@ -91,37 +91,37 @@ code {
   }
   body, .article {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.3em;
     margin: auto;
   }
   h1, .h1 {
     font-size: 1.94444444em;
-    line-height: 1.54285714em;
-    margin-top: 0.77142857em;
-    margin-bottom: 1.54285714em;
+    line-height: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
   }
   h2, .h2 {
     font-size: 1.55555556em;
-    line-height: 1.92857143em;
-    margin-top: 0.96428571em;
-    margin-bottom: 0.96428571em;
+    line-height: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
   }
   h3, .h3 {
     font-size: 1.27777778em;
-    line-height: 1.17391304em;
-    margin-top: 1.17391304em;
+    line-height: 1.3em;
+    margin-top: 2em;
     margin-bottom: 0em;
   }
   h4, .h4 {
     font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 1.5em;
+    line-height: 1.3em;
+    margin-top: 2em;
     margin-bottom: 0em;
   }
   h5, .h5 {
     font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 1.5em;
+    line-height: 1.3em;
+    margin-top: 2em;
     margin-bottom: 0em;
   }
   p, ul, ol, pre, table, blockquote {
